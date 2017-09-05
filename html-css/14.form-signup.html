@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        legend {
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>기본정보</legend>
+            <div>
+                <label>ID <input type="text" name="username" maxlength="16" minlength="4" placeholder="특수문자 제외, 4~16자" required/></label>
+            </div>
+            <div>
+                <label><b>비밀번호</b><input type="password" name="password" placeholder="비밀번호 입력"/></label>
+            </div>
+            <div>
+                <label>이메일 <input type="email" id="email"/></label>
+            </div>
+            <div>
+                <label>성별
+                    <select name="gender" id="gender">
+                        <option value="male">남성</option>
+                        <option value="female">여성</option>
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>선택입력</legend>
+            <div>
+                <label>나이<input type="number" min="1" max="200" name="age"/></label>
+            </div>
+            <div>
+                <label>주소<input type="text" name="address"/></label>
+            </div>
+            <div>
+                <label>자기소개
+                    <div>
+                        <textarea name="introduce" id="introduce" cols="40" rows="5" placeholder="자기소개"></textarea>
+                    </div>
+                </label>
+            </div>
+        </fieldset>
+        <input type="submit" name="submit" value="회원가입" />
+        <input type="reset" name="reset" value="내용 지우기" />
+    </form>
+</body>
+</html>
