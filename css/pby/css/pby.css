@@ -1,0 +1,58 @@
+h1 {
+    text-align: left;
+}
+p {
+    white-space: pre-wrap;
+}
+th, td {
+    border: 1px solid black;
+    padding: 4px 8px;
+}
+div {3
+    margin-bottom: 50px;
+}
+iframe {
+    position: center;
+}
+p.introduce{
+    border: 1px solid black;
+    text-align: center;
+    white-space: pre-wrap;
+}
+.introduce-table {
+    white-space: pre-wrap;
+    text-align: center;
+}
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.table-content {
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+}
+.menu {
+    background-color: #CD853F;
+}
+.video-introduce {
+    background-color: grey;
+}
+#update-time {
+    text-align: right;
+}
+#arrow {
+    width: 12px;
+    height: 12px;
+}
+#blockquote tr > td {
+    background-color: grey;
+}
+#introduce-table {
+    border: 2px solid #CD853F;
+}
