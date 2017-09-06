@@ -1,0 +1,13 @@
+.container {
+    .content {
+        .title{
+            font-size: 14px;
+            text-align: left;
+        }
+        > .description {
+            font-size: 11px;
+            text-align: left;
+            color: #999;
+        }
+    }
+}
