@@ -1,0 +1,71 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #585858;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  max-width: 1680px;
+  height: 61px;
+  float: left;
+}
+
+.navbar ul {
+  height: 61px;
+}
+
+.navbar li {
+  float: left;
+  line-height: 61px;
+}
+
+.navbar li .logo-image {
+  margin-left: 20px;
+  margin-top: 16px;
+}
+
+.navbar li > a {
+  height: 61px;
+  display: inline-block;
+}
+
+.navbar > .navbar-left {
+  float: left;
+  margin-right: 100px;
+}
+
+.navbar > .navbar-left > li {
+  margin-right: 10px;
+}
+
+.navbar > .right {
+  width: 1000px;
+  float: right;
+}
+
+.navbar > .right li > a {
+  padding: 0 8px;
+}
+
+.navbar > .right > .navbar-center {
+  float: left;
+  margin-right: 100px;
+}
+
+.navbar > .right > .navbar-right {
+  float: right;
+}
+
+.navbar > .right > .navbar-right > li {
+  margin-right: 20px;
+}
