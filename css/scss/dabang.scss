@@ -127,6 +127,16 @@ div.main-search {
             font-size: 15px;
             color: #fff;
             border-radius: 0px 8px 8px 0px;
+            cursor: pointer;
+
+
+            &:focus {
+                outline: none;
+            }
+            &:hover {
+                background-color: #2074c8;
+                transition-delay: 0.1s;
+            }
         }
     }
 }

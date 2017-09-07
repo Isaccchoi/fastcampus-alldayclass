@@ -144,4 +144,14 @@ div.main-search > .input-container button {
   font-size: 15px;
   color: #fff;
   border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+
+div.main-search > .input-container button:focus {
+  outline: none;
+}
+
+div.main-search > .input-container button:hover {
+  background-color: #2074c8;
+  transition-delay: 0.1s;
 }
