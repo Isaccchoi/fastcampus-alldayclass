@@ -346,6 +346,7 @@ div.footer-container {
                 padding-left: 30px;
                 vertical-align: bottom;
                 > h4 {
+                    margin-top: 0;
                     color: white;
                     font-size: 15px;
                 }
@@ -356,8 +357,9 @@ div.footer-container {
             > ul.footer-icon {
                 text-align: right;
                 width: 180px;
-                > i.fa {
+                i.fa {
                     text-align: right;
+                    color: white;
                 }
             }
         }
