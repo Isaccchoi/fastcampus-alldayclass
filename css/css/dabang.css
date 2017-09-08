@@ -342,7 +342,7 @@ div.terms-container > div.terms > ul.terms-list > li > a {
 }
 
 div.footer-container {
-  width: 1680px;
+  width: 1640px;
   height: 268px;
   background-color: #2a2a2a;
 }
@@ -401,4 +401,54 @@ div.footer-container > div.footer > .footer-info > ul.footer-icon {
 div.footer-container > div.footer > .footer-info > ul.footer-icon i.fa {
   text-align: right;
   color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+    margin: 0 20px;
+  }
+  .main-search {
+    height: 400px;
+  }
+  .main-search .img-hyeri {
+    background-size: contain;
+  }
+  .main-search .img-bg {
+    background-size: cover;
+  }
+  .main-search .input-bg {
+    height: 60px;
+  }
+  .main-search .input-container {
+    height: 60px;
+  }
+  .main-search .input-container > input {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+  }
+  .main-search .input-container > button {
+    width: 80px;
+    height: 30px;
+  }
+  .theme-search-container {
+    width: 32%;
+  }
+  .theme-search-container > .theme-list {
+    width: 32%;
+  }
+  .theme-search-container > .theme-list > .theme-item {
+    width: 32%;
+  }
+  .theme-search-container > .theme-list > .theme-item:nth-of-type(3n-1) {
+    margin: 0 2%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .main-search {
+    height: 320px;
+  }
 }
