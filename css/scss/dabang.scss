@@ -268,10 +268,10 @@ div.sitemap-container {
     height: 300px;
     margin: 0 auto;
     > div.sitemap {
-        width: 150px;
+        width: 160px;
         float: left;
         margin-top: 30px;
-        margin-right: 50px;
+        margin-right: 40px;
     }
     > * {
         font-size: 14px;
@@ -330,23 +330,34 @@ div.footer-container {
             background-repeat: no-repeat;
         }
         > .footer-info {
-            float: left;
-            width: 750px;
-            height: 180px;
-            margin-left: 50px;
+            width: 860px;
+            height: 150px;
+            margin-left: 30px;
             white-space: wrap;
+            display: table-cell;
+            vertical-align: bottom;
+            box-sizing: border-box;
             > ul {
-                float: left;
-                width: 288px;
+                display: table-cell;
+                width: 250px;
                 height: 155px;
                 color: #919191;
                 font-size: 13px;
+                padding-left: 30px;
+                vertical-align: bottom;
                 > h4 {
                     color: white;
+                    font-size: 15px;
                 }
                 > li {
                     margin-bottom: 13px;
-
+                }
+            }
+            > ul.footer-icon {
+                text-align: right;
+                width: 180px;
+                > i.fa {
+                    text-align: right;
                 }
             }
         }
