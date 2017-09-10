@@ -13,6 +13,10 @@ h4 {
     font-size: 14px;
     font-weight: bold;
 }
+
+hr {
+    margin: 4px;
+}
 .clearfix {
     &::after {
         content: ' ';
@@ -22,6 +26,24 @@ h4 {
     }
 }
 
+.ranking {
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    color: white;
+    text-align: center;
+    margin-right: 6px;
+}
+
+.ranking-to-5 {
+    background-color: #EF8215;
+    border: 1px solid #EF8215;
+}
+
+.ranking-over-5 {
+    background-color: #A5A5A5;
+    border: 1px solid #A5A5A5;
+}
 
 
 div.main-container {
@@ -100,9 +122,9 @@ div.main-container {
     }
     div.main-content{
         width: 1000px;
-        height: 1600px;
+        height: 4000px;
         margin: 0 auto;
-        margin-top: 15px;
+        padding-top: 15px;
         background-color: white;
         > div.advertisement {
             width: 948px;
@@ -131,6 +153,7 @@ div.main-container {
             width: 948px;
             height: 450px;
             margin: 0 auto;
+            padding-bottom: 40px;
             background-color: #F8F8F8;
 
             > div.clip-list {
@@ -171,6 +194,121 @@ div.main-container {
                 }
             }
         }
-    }
+        > div.hot-container {
+            width: 948px;
+            height: 700px;
+            margin: 0 auto;
+            background-color: #F8F8F8;
+            > div.hot-list {
+                width: 930px;
+                margin: 0 auto;
+                margin-bottom: 15px;
+                > div.hot-item {
+                    display: inline-block;
+                    width: 218px;
+                    height: 216px;
+                    margin-right: 13px;
 
+                    &:nth-child(5n-1){
+                        margin-right: 0;
+                    }
+                    h4 {
+                        > a {
+                            color: black;
+                            font-weight: bold;
+                        }
+                    }
+                    ul {
+                        border: 1px solid #ECECEC;
+                        padding: 6px;
+                        background-color: white;
+                        > li {
+                            font-size: 13px;
+                            padding: 3px;
+                            a {
+                                color: black;
+                                margin-right: 2px;
+
+                                &:nth-child(2){
+                                    color: #EF8215;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+        > div.card-list-container {
+            width: 948px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: #F8F8F8;
+
+            > div.card-list {
+                width: 460px;
+                height: 200px;
+                padding-left: 10px;
+                padding-bottom: 15px;
+                display: inline-block;
+                h4 {
+                    a {
+                    color: black;
+                    }
+                }
+                > ul {
+                    li {
+                        width: 146px;
+                        height: 177px;
+                        border: 1px solid #ECECEC;
+                        background-color: white;
+                        font-size: 13px;
+                        display: inline-block;
+                        img {
+                            width: 144px;
+                            height: 128px;
+                            padding-bottom: 3px;
+                        }
+                        > a {
+                            width: 146px;
+                            height: 177px;
+                            white-space: pre-wrap;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        > div.recommend-container {
+            width: 948px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: #F8F8F8;
+            > div.recommend {
+                width: 298px;
+                height: 362px;
+                float: left;
+                margin-left: 14px;
+
+                > h4 {
+                    height: 20px;
+                    background-color: black;
+                    color: white;
+                }
+                > ul {
+                    margin-top: 10px;
+                    border: 1px solid #ECECEC;
+                    background-color: white;
+                    padding: 10px;
+                    > * {
+                        font-size: 13px;
+                    }
+                    > li {
+                        padding: 8px;
+                        border-bottom: 1px solid #ECECEC;
+                    }
+                }
+            }
+        }
+    }
 }
