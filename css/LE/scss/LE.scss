@@ -48,7 +48,7 @@ hr {
 
 div.main-container {
     width: 100%;
-    height: 2965px;
+    height: 3655px;
     background-color: #F8F8F8;
     > div.head {
         width: 1000px;
@@ -122,7 +122,7 @@ div.main-container {
     }
     div.main-content{
         width: 1000px;
-        height: 4000px;
+        height: 3408px;
         margin: 0 auto;
         padding-top: 15px;
         background-color: white;
@@ -253,7 +253,7 @@ div.main-container {
                 display: inline-block;
                 h4 {
                     a {
-                    color: black;
+                        color: black;
                     }
                 }
                 > ul {
@@ -307,6 +307,152 @@ div.main-container {
                         padding: 8px;
                         border-bottom: 1px solid #ECECEC;
                     }
+                }
+            }
+        }
+        > div.introduce-container {
+            width: 948px;
+            height: 180px;
+            margin: 0 auto;
+            margin-top: 50px;
+            > ul {
+                li {
+                    display: inline-block;
+                    img {
+                        width: 234px;
+                        height: 151px;
+                    }
+                }
+            }
+        }
+        > div.notice {
+            width: 1000px;
+            height: 39px;
+            text-align: center;
+            line-height: 39px;
+            background-color: #ECECEC;
+            border-top: 1px solid #CECECE;
+            > a {
+                color: black;
+                font-size: 14px;
+                margin-right: 5px;
+
+                &:nth-child(1) {
+                    padding-right: 5px;
+                    border-right: 1px solid #CECECE;
+                }
+                &:nth-child(2) {
+                    font-weight: bold;
+                    color: #007f00;
+                }
+            }
+        }
+        > div.footer {
+            width: 1000px;
+            height: 417px;
+            background-color: #1C1C1C;
+            > div.sitemap-container{
+                width: 930px;
+                height: 280px;
+                margin: 0 auto;
+                border-bottom: 1px dotted #999;
+                > ul.sitemap-list {
+                    width: 116px;
+                    height: 212px;
+                    float: left;
+                    margin-top: 40px;
+                    > h4 {
+                        > a {
+                            color: white;
+                        }
+                        margin-bottom: 5px;
+                    }
+                    > li {
+                        > a {
+                            font-size: 13px;
+                            color: #999;
+                        }
+                    }
+                }
+            }
+            > div.footer-info-container {
+                > div {
+                    width: 930px;
+                    height: 30px;
+                    margin: 0 auto;
+                    text-align: center;
+                    padding-top: 10px;
+                }
+                a {
+                    color: #999;
+                }
+                li {
+                    margin-right: 5px;
+                    font-size: 13px;
+                }
+                > div.info {
+                    > ul {
+                        li {
+                            display: inline-block;
+                            padding-right: 8px;
+                            border-right: 1px solid #999;
+                            &:nth-child(9n-1){
+                                border: none;
+                            }
+                        }
+                    }
+                }
+                > div.sns {
+                    > ul {
+                        li {
+                            display: inline-block;
+                            padding-right: 8px;
+                            border-right: 1px solid #999;
+
+                            &:nth-child(7n-1){
+                                a {
+                                    color: red;
+                                }
+                            }
+                            &:nth-child(8n-1){
+                                border: none;
+                                a {
+                                    color: pink;
+                                }
+                            }
+                        }
+                    }
+                }
+                > div.copyright {
+                    font-size: 12px;
+                    color: #999;
+
+                    > span {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    > div.advertisement-image {
+        width: 140px;
+        height: 441px;
+        // background-color: red;
+        position: fixed;
+        top: 200px;
+        left: 1470px;
+        img {
+            margin: 0;
+            padding: 0;
+            width: 140px;
+            height: 180px;
+            margin-bottom: 1px;
+        }
+        > a {
+            &:nth-child(2){
+                > img {
+                    width: 140px;
+                    height: 260px;
                 }
             }
         }
