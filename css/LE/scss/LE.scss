@@ -1,0 +1,176 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.clearfix {
+    &::after {
+        content: ' ';
+        height: 0;
+        display: block;
+        clear: both;
+    }
+}
+
+
+
+div.main-container {
+    width: 100%;
+    height: 2965px;
+    background-color: #F8F8F8;
+    > div.head {
+        width: 1000px;
+        height: 162px;
+        margin: 0 auto;
+        background-color: white;
+        > div.nav-menu {
+            width: 1000px;
+            height: 34px;
+            margin: 0 auto;
+            > ul {
+                float: right;
+                height: 34px;
+                padding: 3px;
+                top: 13px;
+                right: 20px;
+                > li {
+                    width: 28px;
+                    height: 28px;
+                    float: left;
+                    img {
+                        height: 16px;
+                        width: 16px;
+
+                    }
+                }
+            }
+        }
+        > div.logo {
+            width: 480px;
+            height: 70px;
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 25px;
+            > a {
+                > img {
+                    width: 70px;
+                    height: 70px;
+                    margin: 0 auto;
+                }
+            }
+        }
+        > div.menu {
+            width: 946px;
+            height: 32px;
+            margin: 0 auto;
+            border-bottom: 1px solid black;
+            margin-bottom: 15px;
+            ul {
+                text-align: center;
+                line-height: 32px;
+                font-weight: bold;
+                font-family: 'Economica',sans-serif;
+                li {
+                    display: inline-block;
+                    padding: 22px;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    font-size: 16px;
+                    > a {
+                        color: #727171;
+                    }
+                }
+                li.menu-item8 {
+                    > a {
+                        color: orange;
+                    }
+                }
+            }
+        }
+    }
+    div.main-content{
+        width: 1000px;
+        height: 1600px;
+        margin: 0 auto;
+        margin-top: 15px;
+        background-color: white;
+        > div.advertisement {
+            width: 948px;
+            height: 600px;
+            margin: 0 auto;
+            background-color: #F8F8F8;
+            div {
+                margin-bottom: 4px;
+            }
+            > .ad-item1 {
+                a {
+
+                    img {
+                        width: 948px;
+                    }
+                }
+            }
+            > div.ad-item2 {
+                height: 140px;
+                a {
+                    margin: 1px;
+                }
+            }
+        }
+        > div.clip {
+            width: 948px;
+            height: 450px;
+            margin: 0 auto;
+            background-color: #F8F8F8;
+
+            > div.clip-list {
+                width: 930px;
+                margin: 0 auto;
+                margin-bottom: 15px;
+                > div.clip-item {
+                    display: inline-block;
+                    width: 218px;
+                    height: 216px;
+                    margin-right: 13px;
+
+                    &:nth-child(5n-1){
+                        margin-right: 0;
+                    }
+                    a {
+                        width: 228px;
+                        height: 116px;
+                        color: #313131;
+                        > img {
+                            width: 218px;
+                            height: 116px;
+                            margin: 0;
+                        }
+                    }
+                    > ul {
+                        > li {
+                            margin-bottom: 7px;
+                            a {
+                                font-size: 14px;
+                                margin-right: 2px;
+                            }
+                            a.comment {
+                                color: #EF8215;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
